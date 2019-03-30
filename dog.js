@@ -6,4 +6,4 @@ function Dog(name){
 Dog.prototype.sayHi=function(){
 	console.log('Hello, My name is',chalk.blue(this.name))
 }
-module.export =Dog
+module.exports =Dog
